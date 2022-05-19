@@ -21,5 +21,5 @@ If you dont know the credential after installing do the following to reset passw
 
 2.And, reset password for 'admin' username using this command **sudo runuser -u _gvm -- gvmd --user=admin --new-password=StrongPassword**
 
-After installing OpenVas, I get an error when trying to scan **Failed to find config ‘daba56c8-73ec-11df-a475-002264764cea’**. To fix this I did
+After installing OpenVas, I get an error when trying to scan **Failed to find config ‘daba56c8-73ec-11df-a475-002264764cea’**. In /var/log/gvm/gvmd.log I had the following errors " No SCAP Database Found" and "No CERT databse Found". I tried many things but mine just started working by itself when I let it run in the background for about 30 min.
   
